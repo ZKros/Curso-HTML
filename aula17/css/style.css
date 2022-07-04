@@ -1,0 +1,35 @@
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pai {
+    width: 50rem;
+    height: 100vh;
+    background: yellowgreen;
+}
+
+.pai>div {
+    width: 50%;
+    height: 50rem;
+    background: blue;
+}
+
+.pai2 {
+    height: 100vh;
+    background: red;
+}
+
+.pai3 {
+    height: 100vh;
+    background: pink;
+}
+
+p {
+    font-size: 2vmax;
+}

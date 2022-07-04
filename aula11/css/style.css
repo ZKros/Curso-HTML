@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body div section p {
+    color: red;
+}
+
+.heading {
+    color: purple;
+}
+
+div.main h3.heading {
+    color: yellow;
+}
+
+div {
+    color: initial;
+    margin-left: 20px;
+}
+
+.Pai>.Filha {
+    color: yellowgreen;
+}
+
+.Pai>.Filha>.Filha {
+    color: blue;
+}

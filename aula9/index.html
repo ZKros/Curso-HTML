@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula9</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 800px;
+
+        }
+
+        table td,
+        table th {
+            border: 1px solid grey;
+            padding: 15px;
+            text-align: center;
+        }
+
+        table caption {
+            caption-side: top;
+            padding: 15px;
+            font-style: italic;
+        }
+
+        tfoot td,
+        table th {
+            background: #ddd;
+        }
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui corrupti sunt officiis cum praesentium
+        tempore expedita, cumque quibusdam eveniet ad minima repellat quo fugit aperiam, nostrum exercitationem impedit
+        ex.
+    </p>
+    <div class="responsive-table">
+        <table>
+            <caption>
+                Descrição da Tabela
+            </caption>
+            <thead>
+                <tr>
+                    <th>
+                        Titulo 1
+                    </th>
+                    <th>
+                        Titulo 2
+                    </th>
+                    <th>
+                        Titulo 3
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Corpo1
+                    </td>
+                    <td>
+                        Corpo2
+                    </td>
+                    <td>
+                        Corpo3
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">Super</td>
+                    <td>Super3</td>
+                </tr>
+                <tr>
+                    <td>
+                        Corpo6
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" rowspan="2">
+
+                    </td>
+                    <td>
+                        Total:
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        R$ 1000
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>

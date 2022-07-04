@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texto{
+    display: block;
+    background: purple;
+    height: 150px;
+    width: 200px;
+    overflow-y: auto;
+    margin: 0 auto;
+    
+
+}
